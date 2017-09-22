@@ -87,8 +87,8 @@ private:
 	sql::PreparedStatement *_pstmt;
 	sql::Connection* _conn;
 
-	typename std::function<void(sql::ResultSet*)> _onResultFunc;
-	typename std::function<void(const std::string&)> _onErrorFunc;
+	std::function<void(sql::ResultSet*)> _onResultFunc;
+	std::function<void(const std::string&)> _onErrorFunc;
 };
 
 #endif	//__SQLMGR_H__
