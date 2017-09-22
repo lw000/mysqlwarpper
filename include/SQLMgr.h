@@ -68,7 +68,7 @@ public:
 	bool createStatement();
 	bool executeQuery(const std::string& sqlString,
 			std::function<void(sql::ResultSet*)> onResultFunc,
-			typename std::function<void(const std::string&)> onErrorFunc);
+			std::function<void(const std::string&)> onErrorFunc);
 
 public:
 	sql::PreparedStatement* prepareStatement(const std::string& sql);
