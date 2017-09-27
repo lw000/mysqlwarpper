@@ -85,7 +85,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\include;..\mysql-connector-c++-noinstall-1.1.9-win32\include;..\prebuilt-dll-2-9-1-release\include;..\..\..\pcLib\boost_1_62_0</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\include;..\mysql-connector-c++-noinstall-1.1.9-win32\include;..\..\cross-common\prebuilt-dll-2-9-1-release\include;E:\boost\boost_1_65_1</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
@@ -115,7 +115,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\libutils;..\core;..\json;..\common;..\..\libevent\;..\..\libevent\include;..\..\libevent\build\vs2013\include;..\..\libevent\WIN32-Code;..\..\nanomsg\src;..\..\log4z</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\include;..\mysql-connector-c++-noinstall-1.1.9-win32\include;..\..\cross-common\prebuilt-dll-2-9-1-release\include;E:\boost\boost_1_65_1</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
