@@ -15,7 +15,7 @@
 #include <list>
 #include <pthread.h>
 
-class SQLConnPool final
+class SQLConnPool
 {
 public:
 	class CONNECT
